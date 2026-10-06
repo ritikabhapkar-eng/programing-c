@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int sensor1, sensor2, result;
+
+    printf("Enter the value of sensor1: ");
+    scanf("%d", &sensor1);
+
+    printf("Enter the value of sensor2: ");
+    scanf("%d", &sensor2);
+
+    result = sensor1 - sensor2;
+
+    printf("Subtraction = %d\n", result);
+
+    return 0;
+}
